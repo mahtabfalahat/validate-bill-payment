@@ -27,4 +27,4 @@ const BaseElevenFormula = (billArray) => {
   return finalFirstcheckDigit;
 };
 
-console.log(BaseElevenFormula(paymentIdArray));
+BaseElevenFormula(paymentIdArray);
